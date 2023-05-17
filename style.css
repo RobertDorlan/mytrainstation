@@ -1,0 +1,26 @@
+/* Style the content */
+body{
+    background-image: url("./assets/images/trainstation.jpeg");
+    background-size: cover;
+    background-repeat:repeat-y; /* Prevents the image from repeating */
+
+}
+
+.content {
+    text-align: center;
+    background-color: black;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #FFD369;
+
+  }
+
+  
+  .topnav a {
+    
+    display:inline-block;
+    color: #FFD369;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
