@@ -1,38 +1,69 @@
-html, body {
-    height: 100%;
-    margin: 0;
-    background-color: black;
+.gradient-background {
+    background: linear-gradient(300deg, #000000, rgb(44, 46, 48), #000000);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
   }
 
 
-img{
-    background-repeat:no-repeat; 
-    width:100% ;
-    height: 96%;
-    height: 80vh;
+  .main-background{
+    background-color: #000000;
+  }
 
+  hr{
+    color: white;
+    border-width: 2px;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 12px;
+
+  }
+
+
+
+
+
+
+  /*About us*/
+  .card{
+    margin-left: 100px;
+    background-color: black;
+    border-color: black;
+    margin-bottom: 200px;
+    
+   
 }
 
-
-.navbar-brand{
-  color: white;
+.card2{
+    margin-right: 250px;
+    background-color: black;
+    border-color: black;
+    margin-bottom: 200px;
+    margin-top: 150px;
 }
 
-.nav-link{
-  color: white;
+.name{
+
+    color: white;
+    margin-left: 50px;
+    margin-bottom: 180px;
 }
 
-.navbar-nav{
-  gap: 18px;
-  justify-content: center;
-
+.container{
+    margin-top: 7%;
+    display: flex; 
+    justify-content: left; 
+    align-items: center;
 }
-
-
-.flex-container {
-
-  height:15vh;
-}
-
-
-
