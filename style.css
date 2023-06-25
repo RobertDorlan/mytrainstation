@@ -66,3 +66,31 @@
     justify-content: left; 
     align-items: center;
 }
+
+
+
+
+
+
+  /*galleries*/
+
+
+  .carousel{
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .carousel-item img {
+    margin: 0 auto;
+  }
+
+  .descriptionOnPicture{
+    color: white;
+    text-align: right;
+    margin-left: 20%;
+ 
+    margin-top: 5px;
+    
+    
+}
