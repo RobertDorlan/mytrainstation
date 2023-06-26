@@ -1,0 +1,159 @@
+.gradient-background {
+    background: linear-gradient(300deg, #000000, rgb(44, 46, 48), #000000);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+
+  .main-background{
+    background-color: #000000;
+  }
+
+  hr{
+    color: white;
+    border-width: 2px;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 12px;
+
+  }
+
+
+
+
+
+
+
+  .navbar-brand{
+    color: white;
+  }
+  
+  .nav-link{
+    color: white;
+  }
+
+  .navbar-nav{
+    gap: 18px;
+    justify-content: center;
+  
+  }
+
+  .flex-container {
+    height:5vh;
+  }
+  
+  #family{
+    font-family: 'Bruno Ace', cursive;
+  }
+  
+
+
+
+
+
+
+
+
+
+#cont1{
+    padding-top: 10%;
+    padding-left: 10%;
+}
+
+
+
+/*style for the image*/
+.container {
+    position: relative;
+    width: 100%;
+  }
+  
+  .image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    padding-bottom: 40px;
+}
+  
+  .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%)
+  }
+  
+  .container:hover .image {
+    opacity: 0.3;
+  }
+  
+  .container:hover .middle {
+    opacity: 1;
+  }
+  
+  .text {
+    background-color: transparent;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*style for the lineas*/
+
+
+
+
+  #textontheimage{
+    color: white;
+    text-align: center;
+    margin-top: 5%;
+    font-family: 'Bruno Ace', cursive;
+  }
+
+  
+
+
+  .icons{
+    margin-left: 15px;
+  }
+
+
+  #footergallery{
+    margin-top: 300px;
+}
+
+#textclasses1{
+    text-align: left;
+    
+   
+}
