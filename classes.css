@@ -88,7 +88,8 @@
     height: auto;
     transition: .5s ease;
     backface-visibility: hidden;
-  }
+    padding-bottom: 40px;
+}
   
   .middle {
     transition: .5s ease;
@@ -152,5 +153,7 @@
 }
 
 #textclasses1{
-    text-align: center;
+    text-align: left;
+    
+   
 }
